@@ -137,6 +137,87 @@ body {
     }
 }
 
+.happy {
+    padding: 40px 0;
+    &__title {
+        text-align: center;
+        margin: 0 0 15px 0;
+    }
+
+    &__body {
+        max-width: 1000px;
+        margin: 0px auto;
+    }
+
+    &__row {
+        display: flex;
+        margin: 0 -22.5px;
+    }
+
+    &__colum {
+        flex: 0 1 33.333%;
+        padding: 0 22.5px;
+        display: flex;
+    }
+
+    &__item {
+        background-color: #445162;
+        color: #ffffff;
+        border: 1px #445162 solid;
+        border-radius: 5px;
+        min-height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 20px 0;
+    }
+
+    &__subtitle {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    &__label {
+        font-size: 40px;
+        line-height: 40px;
+        color: #445162;
+        padding: 15px 0;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    &__text {
+        flex: 1 1 auto;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        padding: 15px;
+        p {
+            margin: 0 0 20px 0;
+        }
+        p:last-child {
+            margin: 0;
+        }
+    }
+
+    &__btn {
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: 700;
+        color: #445161;
+        background-color: #ffffff;
+        text-align: center;
+        height: 40px;
+        display: block;
+        margin: 0 20px;
+        border-radius: 3px;
+    }
+}
+
 .title {
     font-size: 30px;
     line-height: 36px;
